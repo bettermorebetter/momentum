@@ -1,0 +1,41 @@
+.hidden {
+  display: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+  width: 20vw;
+}
+
+.clock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+  width: 100vw;
+}
+
+#clock {
+  width: 20vw;
+  height: 10vh;
+}
